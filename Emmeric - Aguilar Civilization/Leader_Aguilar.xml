@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<Types>
+		<Row Type="LEADER_GSC_EMMERIC" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Leaders>
+		<Row LeaderType="LEADER_GSC_EMMERIC" Name="LOC_LEADER_GSC_EMMERIC_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_GSC_EMMERIC" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_GSC_EMMERIC_QUOTE"/>
+	</LeaderQuotes>
+	
+	<LeaderTraits>
+		<Row LeaderType="LEADER_GSC_EMMERIC" TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" />
+	</LeaderTraits>
+	
+	<FavoredReligions>
+		<Row LeaderType="LEADER_GSC_EMMERIC" ReligionType="RELIGION_ISLAM"/>
+	</FavoredReligions>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" Name="LOC_TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP_NAME" Description="LOC_TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP_DESCRIPTION" />
+	</Traits>
+	
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_GREAT_WORKS_YIELD_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_GREAT_WORKS_YIELD_FAITH"/>
+	</TraitModifiers>
+	
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_GSC_EMMERIC" AgendaType="AGENDA_PEACEKEEPER"/> <!--TODO EDIT AGENDA-->
+	</HistoricalAgendas>
+	
+	<Modifiers>
+       	<Row>
+			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameInfo>

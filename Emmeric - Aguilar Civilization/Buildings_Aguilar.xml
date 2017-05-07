@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <Types>
+    <Row Type="BUILDING_GSC_HALL_KNOWLEDGE" Kind="KIND_BUILDING" />
+  </Types>
+  <Buildings>
+    <Row BuildingType="BUILDING_GSC_HALL_KNOWLEDGE" Name="LOC_BUILDING_GSC_HALL_KNOWLEDGE_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="50" AdvisorType="ADVISOR_GENERIC"/>
+  </Buildings>
+  <BuildingReplaces>
+    <Row CivUniqueBuildingType="BUILDING_GSC_HALL_KNOWLEDGE" ReplacesBuildingType="BUILDING_LIBRARY"/>
+  </BuildingReplaces>
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_GSC_HALL_KNOWLEDGE" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+  </Building_YieldChanges>
+  <Building_GreatPersonPoints>
+    <Row BuildingType="BUILDING_GSC_HALL_KNOWLEDGE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+    <Row BuildingType="BUILDING_GSC_HALL_KNOWLEDGE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="4"/>
+  </Building_GreatPersonPoints>
+  <Building_GreatWorks>
+    <Row BuildingType="BUILDING_GSC_HALL_KNOWLEDGE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+  </Building_GreatWorks>
+  <Modifiers>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDFAITHYIELD</ModifierId>
+		<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		<RunOnce>false</RunOnce>
+		<Permanent>true</Permanent>
+		<!--<SubjectRequirementSetId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE_REQUIREMENTS</SubjectRequirementSetId>-->
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDGOLDYIELD</ModifierId>
+		<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		<RunOnce>false</RunOnce>
+		<Permanent>true</Permanent>
+		<!--<SubjectRequirementSetId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE_REQUIREMENTS</SubjectRequirementSetId>-->
+	</Row>
+  </Modifiers>
+  <ModifierArguments>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDFAITHYIELD</ModifierId>
+		<Name>BuildingType</Name>
+		<Value>BUILDING_GSC_HALL_KNOWLEDGE</Value>
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDFAITHYIELD</ModifierId>
+		<Name>Amount</Name>
+		<Value>5</Value>
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDFAITHYIELD</ModifierId>
+		<Name>YieldType</Name>
+		<Value>YIELD_FAITH</Value>
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDGOLDYIELD</ModifierId>
+		<Name>BuildingType</Name>
+		<Value>BUILDING_GSC_HALL_KNOWLEDGE</Value>
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDGOLDYIELD</ModifierId>
+		<Name>Amount</Name>
+		<Value>5</Value>
+	</Row>
+	<Row>
+		<ModifierId>HALLKNOWLEDGE_ADDGOLDYIELD</ModifierId>
+		<Name>YieldType</Name>
+		<Value>YIELD_GOLD</Value>
+	</Row>
+  </ModifierArguments>
+  <BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_GSC_HALL_KNOWLEDGE</BuildingType>
+			<ModifierId>HALLKNOWLEDGE_ADDFAITHYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GSC_HALL_KNOWLEDGE</BuildingType>
+			<ModifierId>HALLKNOWLEDGE_ADDGOLDYIELD</ModifierId>
+		</Row>
+  </BuildingModifiers>
+  <!--<Requirements>
+	<Row>
+		<RequirementId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE</RequirementId>
+		<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+	</Row>
+  </Requirements>
+  <RequirementArguments>
+	<Row>
+		<RequirementId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE</RequirementId>
+		<Name>BuildingType</Name>
+		<Value>BUILDING_GSC_HALL_KNOWLEDGE</Value>
+	</Row>
+  </RequirementArguments>
+  <RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_HAS_BUILDING_HALLKNOWLEDGE</RequirementId>
+		</Row>
+  </RequirementSetRequirements>-->
+</GameData>

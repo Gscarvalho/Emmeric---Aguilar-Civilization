@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Civilization_Aguilar -->
+<!-- Author: gscar -->
+<!-- DateCreated: 5/3/2017 9:31:42 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_GSC_AGUILAR" Kind="KIND_CIVILIZATION" />		
+		<Row Type="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM" Kind="KIND_TRAIT" />
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" Name="LOC_CIVILIZATION_GSC_AGUILAR_NAME" Description="LOC_CIVILIZATION_GSC_AGUILAR_DESCRIPTION" Adjective="LOC_CIVILIZATION_GSC_AGUILAR_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_SOUTHAM"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" LeaderType="LEADER_GSC_EMMERIC" CapitalName="LOC_CITY_GSC_AGUILAR_1"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Name="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Description="LOC_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD" Name="LOC_TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM" Name="LOC_TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM_NAME"/>
+	</Traits>
+	<TraitModifiers>	
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_LIBRARY_YIELD_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_UNIVERSITY_YIELD_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_RESEARCH_LAB_YIELD_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_LIBRARY_GREATWRITERPOINTS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_UNIVERSITY_GREATWRITERPOINTS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_RESEARCH_LAB_GREATWRITERPOINTS"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" TraitType="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" TraitType="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" TraitType="TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM"/>
+	</CivilizationTraits>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_YIELD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_YIELD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_YIELD_FAITH</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_YIELD_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_YIELD_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_YIELD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_YIELD_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_YIELD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row><Row>
+			<ModifierId>TRAIT_UNIVERSITY_YIELD_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_YIELD_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RESEARCH_LAB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_YIELD_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row><Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_YIELD_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIVERSITY_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESEARCH_LAB_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<ModifierId>TRAIT_LIBRARY_GREATWRITERPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ModifierId>TRAIT_UNIVERSITY_GREATWRITERPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
+			<ModifierId>TRAIT_RESEARCH_LAB_GREATWRITERPOINTS</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_CAMPUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_CAMPUS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+	</RequirementArguments>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Aguilar City"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Vivanna"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Cruzados"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Pt. Allison"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Carvalho City"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Nort Port"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Grand Wall City"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Verdes"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="West Vivanna"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="New Aguilar"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Port of Stones"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Founders Creek"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Santiago"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Santiago Royal"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" CityName="Aguilar Royal"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" TerrainType="TERRAIN_GRASS" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" Tier="4"/>
+	</StartBiasRivers>
+
+</GameData>

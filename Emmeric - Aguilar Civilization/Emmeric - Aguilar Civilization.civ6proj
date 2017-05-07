@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Emmeric - Aguilar Civilization</Name>
+    <Guid>9e7e1e4b-d9ea-4a6c-9103-5b2b1031b9b0</Guid>
+    <ProjectGuid>04265bba-148c-49ea-9924-9a1fced9aa5c</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Emmeric - Aguilar Civilization</Teaser>
+    <Description>Emmeric - Aguilar Civilization</Description>
+    <Authors>Guilherme S. Carvalho</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Emmeric - Aguilar Civilization</AssemblyName>
+    <RootNamespace>Emmeric - Aguilar Civilization</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Config_Aguilar.xml</File><File>PlayerColours_Aguilar.xml</File><File>Colours_Aguilar.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Leader_Aguilar.xml</File><File>Districts_Aguilar.xml</File><File>Buildings_Aguilar.xml</File><File>Units_Aguilar.xml</File><File>PlayerColours_Aguilar.xml</File><File>Colours_Aguilar.xml</File><File>Civilization_Aguilar.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Colours_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PlayerColours_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Buildings_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Districts_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilization_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Units_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
