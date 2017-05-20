@@ -26,8 +26,8 @@
 			<CivilizationType>CIVILIZATION_GSC_AGUILAR</CivilizationType>
 			<LeaderType>LEADER_GSC_EMMERIC</LeaderType>
 			<Type>UNIT_GSC_ROYAL_GUARD</Type>
-			<Name>LOC_UNIT_GSC_ROYAL_KNIGHT_NAME</Name>
-			<Description>LOC_UNIT_GSC_ROYAL_KNIGHT_DESCRIPTION</Description>
+			<Name>LOC_UNIT_GSC_ROYAL_GUARD_NAME</Name>
+			<Description>LOC_UNIT_GSC_ROYAL_GUARD_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_KNIGHT</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
@@ -45,7 +45,7 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_GSC_AGUILAR</CivilizationType>
 			<LeaderType>LEADER_GSC_EMMERIC</LeaderType>
-			<Type>BUILDING_GSC_HALL_OF_WISDOM</Type>
+			<Type>BUILDING_GSC_HALL_KNOWLEDGE</Type>
 			<Name>LOC_BUILDING_GSC_HALL_OF_WISDOM_NAME</Name>
 			<Description>LOC_BUILDING_GSC_HALL_OF_WISDOM_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_MOSQUE</Icon>

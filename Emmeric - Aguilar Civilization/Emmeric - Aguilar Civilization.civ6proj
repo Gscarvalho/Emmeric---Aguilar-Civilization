@@ -9,16 +9,16 @@
     <Teaser>Emmeric - Aguilar Civilization</Teaser>
     <Description>Emmeric - Aguilar Civilization</Description>
     <Authors>Guilherme S. Carvalho</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>NerdByFate :3</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Emmeric - Aguilar Civilization</AssemblyName>
     <RootNamespace>Emmeric - Aguilar Civilization</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Config_Aguilar.xml</File><File>PlayerColours_Aguilar.xml</File><File>Colours_Aguilar.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Leader_Aguilar.xml</File><File>Districts_Aguilar.xml</File><File>Buildings_Aguilar.xml</File><File>Units_Aguilar.xml</File><File>PlayerColours_Aguilar.xml</File><File>Colours_Aguilar.xml</File><File>Civilization_Aguilar.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Config_Aguilar.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>ConfigText_Aguilar.xml</File></UpdateText><UpdateIcons id="Icons"><File>Icons_Aguilar.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>AguilarCriteria</Criteria><File>Buildings_Aguilar.xml</File><File>Civilization_Aguilar.xml</File><File>Colours_Aguilar.xml</File><File>Districts_Aguilar.xml</File><File>Leader_Aguilar.xml</File><File>PlayerColours_Aguilar.xml</File><File>Units_Aguilar.xml</File></UpdateDatabase><UpdateIcons id="Icons"><Criteria>AguilarCriteria</Criteria><File>Icons_Aguilar.xml</File></UpdateIcons><UpdateText id="Text"><Criteria>AguilarCriteria</Criteria><File>ConfigText_Aguilar.xml</File><File>Text_Aguilar.xml</File></UpdateText><UpdateArt id="Art"><Criteria>AguilarCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="AguilarCriteria" /></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -28,6 +28,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Colours_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ConfigText_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons_Aguilar.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="PlayerColours_Aguilar.xml">
@@ -46,6 +52,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Leader_Aguilar.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text_Aguilar.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Units_Aguilar.xml">

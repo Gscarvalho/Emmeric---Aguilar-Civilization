@@ -14,13 +14,13 @@
 		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" Name="LOC_CIVILIZATION_GSC_AGUILAR_NAME" Description="LOC_CIVILIZATION_GSC_AGUILAR_DESCRIPTION" Adjective="LOC_CIVILIZATION_GSC_AGUILAR_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_SOUTHAM"/>
 	</Civilizations>
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" LeaderType="LEADER_GSC_EMMERIC" CapitalName="LOC_CITY_GSC_AGUILAR_1"/>
+		<Row CivilizationType="CIVILIZATION_GSC_AGUILAR" LeaderType="LEADER_GSC_EMMERIC" CapitalName="Aguilar City"/>
 	</CivilizationLeaders>
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Name="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Description="LOC_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_DESCRIPTION"/>
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD" Name="LOC_TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM" Name="LOC_TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" Name="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_NAME" Description="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD" Name="LOC_CIVILIZATION_UNIT_GSC_ROYAL_GUARD_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL" Name="LOC_CIVILIZATION_DISTRICT_GSC_GRAND_HALL_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM" Name="LOC_CIVILIZATION_BUILDING_GSC_HALL_OF_WISDOM_NAME"/>
 	</Traits>
 	<TraitModifiers>	
 		<Row TraitType="TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS" ModifierId="TRAIT_LIBRARY_YIELD_FAITH"/>
@@ -52,17 +52,17 @@
 		<Row>
 			<ModifierId>TRAIT_LIBRARY_GREATWRITERPOINTS</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>AGUILAR_DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_UNIVERSITY_GREATWRITERPOINTS</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>AGUILAR_DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RESEARCH_LAB_GREATWRITERPOINTS</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>AGUILAR_DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	
@@ -159,28 +159,28 @@
 	
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>DISTRICT_IS_CAMPUS</RequirementSetId>
+			<RequirementSetId>AGUILAR_DISTRICT_IS_CAMPUS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>DISTRICT_IS_CAMPUS</RequirementSetId>
-			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+			<RequirementSetId>AGUILAR_DISTRICT_IS_CAMPUS</RequirementSetId>
+			<RequirementId>AGUILAR_REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+			<RequirementId>AGUILAR_REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
 			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
+			<RequirementId>AGUILAR_REQUIRES_DISTRICT_IS_CAMPUS</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_CAMPUS</Value>
 		</Row>
