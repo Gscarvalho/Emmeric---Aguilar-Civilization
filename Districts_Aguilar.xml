@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_GSC_GRAND_HALL" Kind="KIND_DISTRICT" />
+	</Types>
+	
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_GSC_GRAND_HALL" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+	</DistrictReplaces>
+	
+	<Districts>
+		<Row DistrictType="DISTRICT_GSC_GRAND_HALL" Name="LOC_DISTRICT_GSC_GRAND_HALL_NAME" Description="LOC_DISTRICT_GSC_GRAND_HALL_DESCRIPTION" PrereqTech="TECH_CURRENCY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="35" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="3" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_GSC_GRAND_HALL"/>
+	</Districts>
+	
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_GSC_GRAND_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_GSC_GRAND_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_GSC_GRAND_HALL" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_GSC_GRAND_HALL" YieldType="YIELD_GOLD" YieldChangeAsOrigin="2" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="6"/>
+	</District_TradeRouteYields>
+</GameData>	
+	
+	
+	
+	
