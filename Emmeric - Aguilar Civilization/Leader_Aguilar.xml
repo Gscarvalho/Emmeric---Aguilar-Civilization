@@ -27,9 +27,9 @@
 	</Traits>
 	
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_GREAT_WORKS_YIELD_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_GREAT_WORKS_YIELD_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_AGUILAR_BOOST_HOLY_SITE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_AGUILAR_GREAT_WORKS_YIELD_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP" ModifierId="TRAIT_AGUILAR_GREAT_WORKS_YIELD_FAITH"/>
 	</TraitModifiers>
 	
 	<HistoricalAgendas>
@@ -38,58 +38,58 @@
 	
 	<Modifiers>
        	<Row>
-			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
 	
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HOLY_SITE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_BOOST_HOLY_SITE_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
 		
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
 			<Name>YieldChange</Name>
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_SCIENCE</ModifierId>
 			<Name>GreatWorkObjectType</Name>
 			<Value>GREATWORKOBJECT_WRITING</Value>
 		</Row>	
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_FAITH</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_FAITH</ModifierId>
 			<Name>YieldChange</Name>
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_GREAT_WORKS_YIELD_FAITH</ModifierId>
+			<ModifierId>TRAIT_AGUILAR_GREAT_WORKS_YIELD_FAITH</ModifierId>
 			<Name>GreatWorkObjectType</Name>
 			<Value>GREATWORKOBJECT_WRITING</Value>
 		</Row>

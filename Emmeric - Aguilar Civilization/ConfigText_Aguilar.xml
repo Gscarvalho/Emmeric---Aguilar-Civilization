@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ConfigText_Aguilar -->
+<!-- Author: NerdByFate -->
+<!-- DateCreated: 5/19/2017 6:17:25 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_GSC_AGUILAR_NAME" Language="en_US">
+			<Text>Civilization Name</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_GSC_EMMERIC_NAME" Language="en_US">
+			<Text>Leader Name</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_NAME" Language="en_US">
+			<Text>Civilization Ability Name</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GSC_ENLIGHTENED_FOLLOWERS_DESCRIPTION" Language="en_US">
+			<Text>Civilization Ability Description</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP_NAME" Language="en_US">
+			<Text>Leader Ability Name</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GSC_DEVOUT_LEADERSHIP_DESCRIPTION" Language="en_US">
+			<Text>Leader Ability Description</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GSC_GRAND_HALL_NAME" Language="en_US">
+			<Text>District Name</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GSC_GRAND_HALL_DESCRIPTION" Language="en_US">
+			<Text>District Description</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GSC_ROYAL_GUARD_NAME" Language="en_US">
+			<Text>Unit Name</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GSC_ROYAL_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Unit Description</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GSC_ROYAL_GUARD_NAME" Language="en_US">
+			<Text>Ability Name</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GSC_ROYAL_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Ability Description</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GSC_HALL_OF_WISDOM_NAME" Language="en_US">
+			<Text>Building Name</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GSC_HALL_OF_WISDOM_DESCRIPTION" Language="en_US">
+			<Text>Building Description</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GSC_EMMERIC_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GSC_ROYAL_GUARD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Unit History</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GSC_GRAND_HALL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>District History</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GSC_HALL_KNOWLEDGE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Building History</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GSC_AGUILAR_DESCRIPTION" Language="en_US">
+			<Text>Civilization Description</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_GSC_EMMERIC" Language="en_US">
+			<Text>Loading Screen Info</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GSC_EMMERIC_TITLE" Language="en_US">
+			<Text>Leader Title</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GSC_EMMERIC_SUBTITLE" Language="en_US">
+			<Text>Leader Subtitle</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_GSC_EMMERIC_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader History</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GSC_AGUILAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization History</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

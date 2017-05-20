@@ -20,12 +20,11 @@
 		<Row UnitType="UNIT_GSC_ROYAL_GUARD" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_GSC_ROYAL_GUARD" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_GSC_ROYAL_GUARD" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_GSC_ROYAL_GUARD" AiType="UNITTYPE_SWORDSMAN"/>
 		<Row UnitType="UNIT_GSC_ROYAL_GUARD" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	
   	<Units>
-		<Row UnitType="UNIT_GSC_ROYAL_GUARD" BaseMoves="3" Cost="45" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD_NAME" Description="LOC_TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="0" Combat="47" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING" />
+		<Row UnitType="UNIT_GSC_ROYAL_GUARD" BaseMoves="3" Cost="45" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_GSC_ROYAL_GUARD_NAME" Description="LOC_UNIT_GSC_ROYAL_GUARD_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="0" Combat="47" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING" TraitType="TRAIT_CIVILIZATION_UNIT_GSC_ROYAL_GUARD"/>
 	</Units>
 	
 	<UnitReplaces>
